@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+
+body {
+  font-family: 'Arvo', serif;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+.number{
+  font-size: 10rem;
+  color: #333;
+  margin: 0;
+  font-weight: 700;
+  text-shadow: 0 0 10px #fff;
+  transition: 0.5s;
+  background-color:#fff;
+  border-radius: 10px;
+  text-align: center;
+  width: 200px;
+  padding: 20px;
+}
+.btn{
+  
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.5s;
+  
+ 
+}
+.counter{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.decrease{
+  margin-right: 10px;
+  border-radius: 100%;
+  background-color: purple;
+  color: #fff;
+  position: absolute;
+  bottom:-20px;
+  right:40px;
+}
+.increase{
+  background-color: #000;
+  margin-left: 10px;
+  border-radius: 100%;
+  color: #fff;
+  position: absolute;
+  right: -12px;
+  bottom: 30px;
+}
+.reset{
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  margin: 10px;
+  border-radius: 10px;
+
+}
